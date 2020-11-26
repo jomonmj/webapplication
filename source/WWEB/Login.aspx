@@ -48,7 +48,7 @@
         <tr>
             <td colspan="2">
                  <div style="text-align:center" >
-                <asp:Button ID="Button1"   class="bg-dark" runat="server" Text="submit" Width="205px" OnClick="Button1_Click"/>
+                <asp:Button ID="Button1"   class="bg-primary" runat="server" Text="Submit" Width="205px" OnClick="Button1_Click"/>
                 </div>
             </td>
         </tr>
