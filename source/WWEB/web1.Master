@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="web1.master.cs" Inherits="WWEB.web1" %>
+
+<!DOCTYPE html>
+
+<html>
+<link href="Content/bootstrap.css" rel="stylesheet" />
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1101px;
+        }
+        .auto-style2 {
+            width: 1103px;
+        }
+        .auto-style3 {
+            color: #ffc107;
+            width: 981px;
+            margin-left: 105px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <table class="w-100">
+            <tr>
+                
+                <td>&nbsp;
+                    <div class="bg-dark">
+                    <div class="text-warning">
+                    <asp:Label ID="Label1" runat="server" Text="logo"></asp:Label>
+                </div>
+                        </div>
+&nbsp;<div class="active">
+                       </div>
+                </td>
+                <td>
+                    <div style="text-align:center">
+                     <div class="bg-dark">
+                    <div class="auto-style3">
+                    <asp:Label ID="header" runat="server"></asp:Label>
+                    </div>
+                    </div>
+                        </div>
+                </td>
+                <td>
+                    <div style="text-align:right">
+                    <div class="bg-dark">
+                    <div class="text-warning">
+                    <asp:Label ID="Label2" runat="server" Text="phone no:987654310"></asp:Label>
+                    </div>
+                    </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <p>
+            &nbsp;</p>
+            <div class ="align-content-center">
+            </div>
+          </p>
+        
+    </form>
+    <table  class="bg-dark";"w-100">
+        
+        <tr>
+
+            <td class="auto-style2">&nbsp;
+                <div class="text-white">
+                <asp:Label ID="footer" runat="server" ></asp:Label>
+                </div>
+            </td>
+            <td class="auto-style1">&nbsp;
+                 <div class="text-warning">
+                <asp:Label ID="visitor" runat="server" Text="you are visitor No." ></asp:Label>
+                     <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
+                </div>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
